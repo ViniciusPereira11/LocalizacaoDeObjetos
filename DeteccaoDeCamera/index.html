@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--LINK DO P5-->
+     <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.js"></script>
+    
+     <!--LINK DO ML5-->
+      <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+
+
+      <!--LINK DO BOOTSTRAP -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+     
+      <!--LINK DO STYLE.CSS-->
+      <link rel="stylesheet" href="style.css"/>
+
+    
+    <title>Detecção da Câmera</title>
+</head>
+<body >
+   
+        <center>
+            <h1 class="btn btn-info" id="inicio">IA Localizadora de Objetos<br>
+                <span style="font-size: 13px; color: black;" >O nome de entrada que você fornecer deverá ser o 
+                    
+                     <br> mesmo presente no modelo CoCo, apenas assim o objeto será detectado. 
+                     <br> Porque o modelo Coco tem todos os seus objetos em inglês,
+                     <br>  você deverá o nome do objeto também em inglês.</span>
+                
+            </h1>
+            <div class="container">
+               
+                <div class="form-group">Nome do Objeto (em inglês):
+                    <input class="form-control" id="nome">
+                
+                </div>
+                <br>
+                <button class="btn btn-success" onclick="iniciar()" >Iniciar</button>
+                <br>
+                <h3 class="btn btn-danger" id="status"></h3>
+                <h3 class="btn btn-warning" id="objeto"></h3>
+
+            </div>
+
+        </center>
+            
+    
+    
+    
+    
+    <script src="main.js"></script>
+</body>
+</html>

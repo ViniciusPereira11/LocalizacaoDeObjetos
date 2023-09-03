@@ -1,0 +1,13 @@
+body{
+    height:1000px;
+    background-image: linear-gradient(lightblue, lightgreen, lightcoral, lightyellow);
+}
+canvas{
+    border-radius: 10px;
+    box-shadow: 1px 5px 20px rgb(55, 55, 55);
+}
+h1{
+    font-size: 25px !important;
+    margin: 0px;
+    width: 100%;
+}
